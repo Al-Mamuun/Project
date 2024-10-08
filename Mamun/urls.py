@@ -20,8 +20,7 @@ from Anika import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('Mamun',views.home,name="home"),
+    path('',views.home,name="home"),
     path('signin',views.signin,name="signIn"),
     path('signup',views.signup,name="signUp"),
-    
 ]
