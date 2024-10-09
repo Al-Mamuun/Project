@@ -4,13 +4,13 @@ from django.http import HttpResponse
 # Create your views here.
 
 def home (request):
-    return render(request, 'home.html')
+    return render(request, 'home/home.html')
 
 def signin (request):
-    return render(request, 'signin.html')
+    return render(request, 'signin/signin.html')
 
 def signup (request):
-    return render(request, 'signup.html')
+    return render(request, 'signup/signup.html')
 
 def resetPass (request):
-    return render(request, 'reset.html')
+    return render(request, 'resetPass/reset.html')
