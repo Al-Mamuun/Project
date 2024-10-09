@@ -11,3 +11,6 @@ def signin (request):
 
 def signup (request):
     return render(request, 'signup.html')
+
+def resetPass (request):
+    return render(request, 'reset.html')
